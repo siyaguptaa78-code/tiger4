@@ -45,7 +45,7 @@ export default function Home() {
           {/* Moving Marquee live ticker */}
           <div className="live-ticker-banner">
             <div className="ticker-text">
-              🔥 WELCOME TO GAMING UNIVERSE, PLAY HERE ALL YOUR FAVORITE SPORTS BACK & LAY EXCHANGE MARKETS AND INTERNATIONAL CASINO GAMES (24*7), THANK YOU. GET YOUR INSTANT WHATSAPP ID NOW! 🔥
+              🔥 WELCOME TO GAMING UNIVERSE, PLAY HERE ALL YOUR FAVORITE SPORTS BACK & LAY EXCHANGE MARKETS AND INTERNATIONAL CASINO GAMES (247), THANK YOU. GET YOUR INSTANT WHATSAPP ID NOW! 🔥
             </div>
           </div>
 

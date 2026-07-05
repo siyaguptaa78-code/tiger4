@@ -23,7 +23,7 @@ export default function HeroSection() {
         </div>
         
         <p className={`${styles.subtitle} animate-fade-in animate-delay-2`}>
-          Enjoy India's most secure and trusted online sports and casino betting platform. Get your official Tiger365 betting ID instantly and explore endless betting markets with 24/7 withdrawals.
+          Enjoy India's best online sports and casino betting platform with live exchange betting and cricket bookmaker markets at the best odds, guaranteed withdrawals at any time. Get your instant verified Tiger365 ID to start betting.
         </p>
         
         <div className={`${styles.ctaGroup} animate-fade-in animate-delay-3`}>

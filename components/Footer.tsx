@@ -56,7 +56,7 @@ export default function Footer() {
             All users must be 18 years or older to access gaming services. Please play responsibly and follow your local laws before using online gaming platforms.
           </p>
           <p style={{ marginTop: '10px', color: '#666' }}>
-            &copy; {new Date().getFullYear()} {SITE_CONFIG.brand.name} Network. All rights reserved.
+            &copy; 2026 Tiger365 Gaming Exchange
           </p>
         </div>
       </div>

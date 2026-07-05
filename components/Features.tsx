@@ -5,47 +5,47 @@ import { SITE_CONFIG } from "@/config/constants";
 const featuresData = [
   {
     title: "Official Exchange Account",
-    description: "Your Tiger365 ID acts as a secure, verified digital account to keep betting transparent, organized, and fair.",
+    description: "Your Tiger365 ID is your official exchange account that keeps all your bets, deposits, and sportsbooks secure, organized & verified.",
     icon: "🐯"
   },
   {
     title: "Instant ID Creation",
-    description: "Register and receive your verified Tiger365 exchange ID on WhatsApp in under 60 seconds.",
+    description: "Get your personal Tiger365 exchange ID created instantly on WhatsApp",
     icon: "⚡"
   },
   {
     title: "24/7 Fast Withdrawals",
-    description: "Get same-day payouts directly via UPI, NetBanking, or GooglePay in less than 15-30 minutes.",
+    description: "24/7 Same Day Withdrawals via UPI, Net Banking, GooglePay, etc.",
     icon: "💸"
   },
   {
     title: "Multi-Market Betting",
-    description: "Access our rich Sportsbook (Cricket, Tennis, Soccer) and live Casino Lobbies (Poker, Teen Patti, Slots).",
+    description: "Sportsbook (Cricket, Tennis, Football) and Casino (Poker, Slots, Teen Patti) Lobbies",
     icon: "🎯"
   },
   {
     title: "Encrypted & Secured",
-    description: "All transactions and personal credentials remain fully encrypted and protected against unauthorized access.",
+    description: "Encrypted & Secure Betting ID with End-to-End Protection",
     icon: "🔒"
   },
   {
     title: "Real-time Records",
-    description: "Your deposits, match reports, bet histories, and balance updates sync live across all platforms.",
+    description: "Live Records of Deposits, Reports, Odds, Bets, and Balances",
     icon: "📊"
   },
   {
     title: "Exclusive Welcome Promos",
-    description: "Claim dynamic welcome bonuses, first deposit rewards, and daily cashbacks on lost bets.",
+    description: "Welcome Bonuses, First Deposit Offers, and Daily Cashbacks on Losses",
     icon: "🎁"
   },
   {
     title: "24/7 VIP Helpdesk",
-    description: "Resolve queries instantly with our highly responsive WhatsApp customer support team.",
+    description: "24/7 VIP Customer Care via WhatsApp for All Queries",
     icon: "🤝"
   },
   {
     title: "Responsible Gaming",
-    description: "We provide safety tools and limits to ensure an enjoyable and controlled gaming experience.",
+    description: "Responsible Gaming Policy and Tools for Better Gaming Control",
     icon: "🧠"
   }
 ];
