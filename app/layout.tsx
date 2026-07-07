@@ -8,6 +8,9 @@ const fjallaOne = Fjalla_One({ weight: "400", subsets: ["latin"], variable: "--f
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://tiger365online.com'),
+  verification: {
+    google: "Z0_sy-MwgzhEg2dbTltgSG1LZ5lQgaLH2iQZ6NIAH6I",
+  },
   title: `Tiger365 Pro ID – Ultimate Guide to Online Betting | ${SITE_CONFIG.brand.name}`,
   description: SITE_CONFIG.description,
   keywords: ["Tiger365 Pro ID", "Genuine Betting IDs", "Tiger365 Pro ID registration", "Tiger365 Pro", "Online Betting India", "Cricket Betting ID"],
