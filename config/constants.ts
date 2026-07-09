@@ -68,6 +68,7 @@ export const SITE_CONFIG = {
       "info",
       "features",
       "withdrawal",
+      "blog",
       "faq",
       "responsible"
     ]

@@ -80,6 +80,7 @@ export default function Navbar() {
           <Link href="#lobbies">Slot Games</Link>
           <Link href="#lobbies">Card Games</Link>
           <Link href="#about">About Tiger365</Link>
+          <Link href="#blogs">Blogs</Link>
           <Link href="#faq">FAQ</Link>
         </nav>
 
@@ -108,6 +109,7 @@ export default function Navbar() {
           <Link href="#lobbies" onClick={() => setMobileMenuOpen(false)}>Slot Games</Link>
           <Link href="#lobbies" onClick={() => setMobileMenuOpen(false)}>Card Games</Link>
           <Link href="#about" onClick={() => setMobileMenuOpen(false)}>About Tiger365</Link>
+          <Link href="#blogs" onClick={() => setMobileMenuOpen(false)}>Blogs</Link>
           <Link href="#faq" onClick={() => setMobileMenuOpen(false)}>FAQ</Link>
           <div className={styles.mobileActions}>
              <WhatsAppButton className={`${styles.desktopBtn} ${styles.registerBtn}`}>Register</WhatsAppButton>

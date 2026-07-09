@@ -15,6 +15,7 @@ import Footer from "@/components/Footer";
 import SportsSidebar from "@/components/SportsSidebar";
 import LiveExchangeSimulator from "@/components/LiveExchangeSimulator";
 import ExchangeCategories from "@/components/ExchangeCategories";
+import BlogSection from "@/components/BlogSection";
 import { SITE_CONFIG } from "@/config/constants";
 
 const SECTION_COMPONENTS: Record<string, React.ComponentType> = {
@@ -31,6 +32,7 @@ const SECTION_COMPONENTS: Record<string, React.ComponentType> = {
   responsible: ResponsibleGaming,
   live_exchange: LiveExchangeSimulator,
   exchange_categories: ExchangeCategories,
+  blog: BlogSection,
 };
 
 export default function Home() {
