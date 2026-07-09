@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import RegistrationSteps from "@/components/RegistrationSteps";
@@ -17,6 +18,24 @@ import LiveExchangeSimulator from "@/components/LiveExchangeSimulator";
 import ExchangeCategories from "@/components/ExchangeCategories";
 import BlogSection from "@/components/BlogSection";
 import { SITE_CONFIG } from "@/config/constants";
+
+export const metadata: Metadata = {
+  title: `Tiger365 Pro ID – Ultimate Guide to Online Betting | ${SITE_CONFIG.brand.name}`,
+  description: SITE_CONFIG.description,
+  alternates: {
+    canonical: '/',
+  },
+  openGraph: {
+    title: `Tiger365 Pro ID – Ultimate Guide to Online Betting | ${SITE_CONFIG.brand.name}`,
+    description: SITE_CONFIG.description,
+    url: "https://tiger365online.com",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `Tiger365 Pro ID – Ultimate Guide to Online Betting | ${SITE_CONFIG.brand.name}`,
+    description: SITE_CONFIG.description,
+  },
+};
 
 const SECTION_COMPONENTS: Record<string, React.ComponentType> = {
   hero: HeroSection,

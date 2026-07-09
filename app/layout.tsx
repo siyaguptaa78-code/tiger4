@@ -7,14 +7,25 @@ const raleway = Raleway({ subsets: ["latin"], variable: "--font-raleway" });
 const fjallaOne = Fjalla_One({ weight: "400", subsets: ["latin"], variable: "--font-fjalla" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://tiger365online.com'),
+  verification: {
+    google: "Z0_sy-MwgzhEg2dbTltgSG1LZ5lQgaLH2iQZ6NIAH6I",
+  },
   title: `Tiger365 Pro ID – Ultimate Guide to Online Betting | ${SITE_CONFIG.brand.name}`,
   description: SITE_CONFIG.description,
   keywords: ["Tiger365 Pro ID", "Genuine Betting IDs", "Tiger365 Pro ID registration", "Tiger365 Pro", "Online Betting India", "Cricket Betting ID"],
+  applicationName: 'Tiger365',
+  authors: [{ name: 'Tiger365' }],
+  creator: 'Tiger365',
+  publisher: 'Tiger365',
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: `Tiger365 Pro ID – Ultimate Guide to Online Betting`,
     description: SITE_CONFIG.description,
-    url: SITE_CONFIG.url,
-    siteName: SITE_CONFIG.brand.name,
+    url: "https://tiger365online.com",
+    siteName: "Tiger365",
     images: [
       {
         url: "https://genuinebettingids.com/wp-content/uploads/2025/11/Tiger365-Pro-ID-.webp",
@@ -25,6 +36,19 @@ export const metadata: Metadata = {
     ],
     locale: "en_IN",
     type: "website",
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `Tiger365 Pro ID – Ultimate Guide to Online Betting | ${SITE_CONFIG.brand.name}`,
+    description: SITE_CONFIG.description,
+    images: ["https://genuinebettingids.com/wp-content/uploads/2025/11/Tiger365-Pro-ID-.webp"],
+  },
+  icons: {
+    icon: '/favicon.ico',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 };
 

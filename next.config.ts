@@ -15,7 +15,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "tiger365.buzz",
+        hostname: "tiger365online.com",
         pathname: "/**",
       },
       {

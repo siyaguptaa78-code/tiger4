@@ -26,14 +26,14 @@ export const SITE_CONFIG = {
   description: "Get your official Tiger365 exchange ID instantly on WhatsApp. 24/7 customer support, fast UPI/Bank withdrawals, lowest deposits, and live sports and casino markets.",
   whatsappNumber: "916026703858",
   whatsappLink: "https://wa.me/916026703858",
-  url: "https://tiger365.buzz",
+  url: "https://tiger365online.com",
 
   // ==========================================
   // IMAGES CONFIGURATION
   // ==========================================
   images: {
-    heroBanner: "https://tiger365.buzz/assets/img/banner1.png",
-    registrationBanner: "https://tiger365.buzz/assets/img/casino-pic.png",
+    heroBanner: "https://tiger365online.com/assets/img/banner1.png",
+    registrationBanner: "https://tiger365online.com/assets/img/casino-pic.png",
     banners: {
       banner1: {
         src: "https://speedcdn.io/assets/casino_providers/mac88virtualgame.webp",
@@ -42,13 +42,13 @@ export const SITE_CONFIG = {
         height: 500
       },
       banner2: {
-        src: "https://tiger365.buzz/assets/img/home_exchange_games/4.webp",
+        src: "https://tiger365online.com/assets/img/home_exchange_games/4.webp",
         alt: "Tiger365 Special Bonuses and Live Casino Promotions",
         width: 1000,
         height: 500
       },
       banner3: {
-        src: "https://tiger365.buzz/assets/img/home_exchange_games/7.webp",
+        src: "https://tiger365online.com/assets/img/home_exchange_games/7.webp",
         alt: "Join Tiger365 Official Exchange",
         width: 1000,
         height: 500
