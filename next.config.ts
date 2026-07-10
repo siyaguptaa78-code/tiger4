@@ -23,6 +23,11 @@ const nextConfig: NextConfig = {
         hostname: "speedcdn.io",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "tiger365.buzz",
+        pathname: "/**",
+      },
     ],
   },
 };
